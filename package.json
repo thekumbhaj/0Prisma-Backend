@@ -1,0 +1,25 @@
+{
+  "name": "0prisma-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DOTENV_CONFIG_PATH=../.env node --inspect=0.0.0.0 -r dotenv/config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "dotenv-extended": "^2.9.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.6.1"
+  },
+  "devDependencies": {
+    "bcrypt": "^5.1.1",
+    "prisma": "^5.13.0"
+  }
+}
